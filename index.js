@@ -24,7 +24,7 @@ const mapToDouble=(src) =>{
   return r
 }
 
-function mapToSquare(src) {
+const mapToSquare=(src)=> {
   let r = []
   for (let i = 0; i < src.length; i++ ) {
     r.push(src[i] * src[i])
