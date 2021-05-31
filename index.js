@@ -16,7 +16,7 @@ const mapToNoChange=(src)=> {
   return r
 }
 
-function mapToDouble(src) {
+const mapToDouble=(src) =>{
   let r = []
   for (let i = 0; i < src.length; i++ ) {
     r.push(2 * src[i])
