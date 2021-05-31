@@ -40,7 +40,7 @@ const reduceToTotal=(src, startingPoint=0)=> {
   return total
 }
 
-function reduceToAllTrue(src) {
+const reduceToAllTrue=(src)=> {
   for (let i = 0; i < src.length; i++ ) {
     if (!src[i]) return false
   }
